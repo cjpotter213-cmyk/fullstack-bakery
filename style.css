@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.brand {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: maroon;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+nav {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+aside {
+  margin: 0.5rem;
+  padding-right: 1rem;
+}
+
+.food-categories {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0.5rem;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1.25rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: maroon;
+}
+
+article {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.testimonial {
+  background-color: rgb(170, 170, 170);
+}
+
+footer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 1ch;
+  margin: 1ch;
+  background-color: burlywood;
+}
